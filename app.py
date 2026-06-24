@@ -1,7 +1,7 @@
 import pickle as pkl
 import streamlit as st
 import numpy as np
-lin_reg = pkl.load(open(r"C:\C LANGUAGE\code2\PROJECT\car_price_model.pkl","rb"))
+lin_reg = pkl.load(open("car_price_model.pkl","rb"))
 
 st.set_page_config(
     page_title="Car Price Predictor",
