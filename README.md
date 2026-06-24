@@ -37,9 +37,9 @@ This project is a Machine Learning-powered web application that predicts the sel
 - Cloud Deployment
 
 ## Model Performance
-Metric	Score
-Training R² Score	~0.88
-Testing R² Score	~0.84
+- Metric	Score
+- Training R² Score	~0.88
+- Testing R² Score	~0.84
 
 
 
