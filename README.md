@@ -25,7 +25,7 @@ This project is a Machine Learning-powered web application that predicts the sel
 - Transmission Type
 - Number of Previous Owners
 
-##Machine Learning Workflow
+## Machine Learning Workflow
 - Data Collection
 - Data Cleaning and Preprocessing
 - Feature Selection
