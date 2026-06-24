@@ -16,6 +16,38 @@ This project is a Machine Learning-powered web application that predicts the sel
 - Scikit-Learn
 - Streamlit
 
+## 📊 Project Architecture
+
+```text
+Dataset
+   │
+   ▼
+Data Cleaning & Preprocessing
+   │
+   ▼
+Feature Selection
+   │
+   ▼
+Train-Test Split
+   │
+   ▼
+Linear Regression Model
+   │
+   ▼
+Model Evaluation (R² Score)
+   │
+   ▼
+Model Serialization (.pkl)
+   │
+   ▼
+Streamlit Web Application
+   │
+   ▼
+User Input
+   │
+   ▼
+Predicted Car Price
+
 ## Input Features
 - Manufacturing Year
 - Present Price
@@ -24,6 +56,18 @@ This project is a Machine Learning-powered web application that predicts the sel
 - Seller Type
 - Transmission Type
 - Number of Previous Owners
+
+##Machine Learning Workflow
+- Data Collection
+- Data Cleaning and Preprocessing
+- Feature Selection
+- Train-Test Split
+- Model Training using Linear Regression
+- Model Evaluation
+- Model Serialization using Pickle
+- Streamlit Application Development
+- Cloud Deployment
+
 
 ## Output
 - Estimated Selling Price of the Car
